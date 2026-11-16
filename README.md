@@ -2,7 +2,9 @@
 # Neural Algorithm Distiller (NAD)
 
 ### Reinforcement Learning-Driven Neural Network Compression
-
+ <p align="center">
+  <img src="assets/branding/banner.png" alt="Neural Algorithm Distiller Banner" width="100%">
+ </p>
 <p align="center">
   <strong>Intelligent Model Compression Through Deep Reinforcement Learning</strong>
 </p>
