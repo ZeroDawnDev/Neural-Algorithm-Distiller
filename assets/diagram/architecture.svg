@@ -1,0 +1,19 @@
+<svg viewBox="0 0 760 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#444"/></marker></defs>
+  <rect width="760" height="300" fill="#ffffff"/>
+  <rect x="20" y="110" width="140" height="70" rx="10" fill="#e8f0fe" stroke="#3367d6"/>
+  <text x="90" y="140" text-anchor="middle">Teacher</text><text x="90" y="160" text-anchor="middle" font-size="12">pretrained ResNet</text>
+  <rect x="220" y="110" width="150" height="70" rx="10" fill="#fff4e5" stroke="#e08a00"/>
+  <text x="295" y="140" text-anchor="middle">RL Agent</text><text x="295" y="160" text-anchor="middle" font-size="12">DDPG, per-layer actions</text>
+  <rect x="430" y="110" width="150" height="70" rx="10" fill="#e6f4ea" stroke="#1e8e3e"/>
+  <text x="505" y="140" text-anchor="middle">Compressed Student</text><text x="505" y="160" text-anchor="middle" font-size="12">pruned under budget</text>
+  <rect x="620" y="110" width="120" height="70" rx="10" fill="#fce8e6" stroke="#d93025"/>
+  <text x="680" y="140" text-anchor="middle">Distillation</text><text x="680" y="160" text-anchor="middle" font-size="12">accuracy recovery</text>
+  <line x1="160" y1="145" x2="220" y2="145" stroke="#444" marker-end="url(#a)"/>
+  <line x1="370" y1="145" x2="430" y2="145" stroke="#444" marker-end="url(#a)"/>
+  <line x1="580" y1="145" x2="620" y2="145" stroke="#444" marker-end="url(#a)"/>
+  <path d="M505 110 C505 40 295 40 295 110" fill="none" stroke="#444" marker-end="url(#a)"/>
+  <text x="400" y="52" text-anchor="middle" font-size="12">reward: accuracy vs. compression</text>
+  <path d="M90 180 C90 260 680 260 680 180" fill="none" stroke="#444" stroke-dasharray="5 4" marker-end="url(#a)"/>
+  <text x="385" y="262" text-anchor="middle" font-size="12">teacher soft labels</text>
+</svg>
