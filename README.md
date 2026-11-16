@@ -1,4 +1,3 @@
-
 # Neural Algorithm Distiller (NAD)
 
 ### Reinforcement Learning-Driven Neural Network Compression
