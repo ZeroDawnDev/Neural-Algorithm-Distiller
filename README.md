@@ -1,6 +1,3 @@
-<p align="center">
-  <img src="assets/branding/nad-logo.png" alt="NAD Logo" width="120">
-</p>
 # Neural Algorithm Distiller (NAD)
 
 ### Reinforcement Learning-Driven Neural Network Compression
